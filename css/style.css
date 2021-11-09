@@ -97,10 +97,7 @@ ul{
     font-size: 67px;
 }
 
-.row{
-    margin-top: 30px;
-    height: 100%;
-}
+
 
 .jumbo-text{
     width:400px;
@@ -133,9 +130,9 @@ ul{
 }
 
 .sezione-abbonamenti{
-    width:70%;
-    height:800px;
-    margin: 160px auto;
+    width:60%;
+    margin: 0 auto;
+    margin-top: 110px;
 }
 
 .fatturazione-mensile{
@@ -166,9 +163,9 @@ ul{
 }
 
 .professional{
-    width:calc(33.3% - 55px);
+    width:calc((100% / 3) - 32px);
     border: 1px lightgrey solid;
-    height:800px;
+    height:900px;
 }
 
 .head-sezione{
@@ -179,9 +176,9 @@ ul{
 }
 
 .standard{
-    width:calc(33.3% + 55px);
-    padding: 0 55px;
-    height:800px;
+    width:calc((100% / 3) - 32px);
+    margin: 0 48px;
+    height:900px;
 }
 
 
@@ -193,10 +190,9 @@ ul{
 
 
 .advanced{
-    width:calc(33.3% - 55px);
-    height:700px;
+    width:calc((100% / 3) - 32px);
     border: 1px lightgrey solid;
-    height:800px;
+    height:900px;
 }
 
 
@@ -270,6 +266,216 @@ ul{
     margin-top: 15px;
 }
 
+.enterprise{
+    width:60%;
+    height:220px;
+    margin:50px auto;
+    border:1px lightgrey solid;
+}
+
+.head-enterprise{
+    height: 40px;
+    border-bottom: 1px lightgrey solid;
+    text-align: center;
+    line-height: 40px;
+}
+
+.enterprise-content{
+    margin:25px;
+}
+
+.enterprise-left{
+    width:70%;
+}
+
+.enterprise-right{
+    width:30%;
+}
+
+.text-enterprise{
+    margin-top: 15px;
+}
+
+.enterprise p{
+    margin-top: 15px;
+}
+
+.partner{
+    width: 60%;
+    height:500px;
+    margin:0 auto;
+    margin-top: 80px;
+}
+
+.partner img{
+    width:100%;
+}
+
+.partner-left{
+    width:50%;
+}
+
+.partner-right{
+    width:50%;
+}
+
+.partner-container{
+    margin-top:40px;
+    margin-left: 40px;
+}
+
+.partner-container p{
+    margin-top: 30px;
+    margin-bottom:30px
+}
+
+.partner-riquadro{
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.business-container{
+    margin-top: 80px;
+    width:60%;
+    margin:0 auto;
+}
+
+
+.item{
+    width:calc((100% / 3) - 30px);
+    height:100%;
+}
+
+.img-business{
+    height:200px;
+    width:100%;
+}
+
+.item img{
+    width:100%;
+    height:100%;
+}
+
+.center{
+    margin: 0 45px;
+}
+
+.item p{
+    margin-top: 25px;
+}
+
+.row-2{
+    margin-top: 80px;
+}
+
+.text-cinquecento{
+    width:60%;
+    margin: 100px auto;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+a{
+    display: block;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.sezione-loghi{
+    height:400px;
+}
+
+.sezione-sx{
+    width:30%;
+    height:100%;
+}
+
+.sezione-centrale{
+    width:40%;
+    height:100%;
+    padding: 40px;
+}
+
+.sezione-dx{
+    width:30%;
+    height:100%;
+}
+
+.block{
+    width:50%;
+    height:100%;
+    position: relative;
+}
+
+.up-row{
+    height:50%;
+    width:100%;
+}
+
+.down-row{
+    height:50%;
+    width:100%;
+
+}
+
+.first-block {
+    background-color: #90EE90;
+}
+
+.second-block{
+    background-color: #800000;
+}
+
+.img-pannels{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: invert(100%);
+}
+
+.third-block{
+    background-color: #1E90FF;
+}
+
+.fourth-block{
+    background-color: #FF0000;
+}
+
+.sezione-centrale{
+    background-color: #ccc;
+}
+
+.fifth-block{
+    background-color: #DC143C;
+}
+
+.sixth-block{
+    background-color: #87CEFA;
+}
+
+.seventh-block{
+    background-color: #191970;
+}
+
+.eight-block{
+    background-color: yellow;
+}
+
+.content-sezione-centrale{
+    height:100%;
+    width:100%;
+}
+
+.hr-section-2{
+    width:40px;
+    border-top: 1px grey solid;
+}
+
+.sezione-centrale p{
+    margin:20px 0;
+}
 
 
 
